@@ -19,7 +19,7 @@ header {
 	font-weight: 500;
 	line-height: normal;
 	font-size: 24px;
-	text-align: center;
+	text-align: inherit;
 	color: #FFFFFF;
 	display: inline-block;
 }
@@ -28,8 +28,65 @@ header {
 	height: 29px;
 	left: 990px;
 	top: 28px;
+	
 }
 .image {
 	background-image: url('img/image.png');
 	height: 403px;
+	width: 100%;
+	top: 84px;
+	left: 0px; 
+	position: absolute;
+	}
+
+.text {
+	position: absolute;
+	width: 1219px;
+	left: 0px;
+	top: 200px;
+
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 72px;
+	text-align: center;
+	color: #FFFFFF;
+}
+h1 {
+position: absolute;
+width: 1107px;
+height: 75px;
+left: 55px;
+top: 535px;
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-size: 64px;
+text-align: center;
+
+color: #007765;
+
+}
+.section2 {
+background-color: #EEEEEE;
+}
+.article {	
+position: absolute;
+width: 1110px;
+height: 500px;
+left: 55px;
+top: 626px;
+
+
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 32px;
+
+color: #000000;
 }
